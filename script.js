@@ -12,7 +12,7 @@ calculateButton.addEventListener("click", () => {
 
     // Validate inputs
     if (isNaN(weight) || isNaN(height) || weight <= 0 || height <= 0) {
-        statementP.innerText = "Please enter valid weight and height.";
+        statementP.innerText = "Please enter valid height and weight.";
         resultSpan.innerText = "";
         return;
     }
